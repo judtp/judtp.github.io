@@ -62,7 +62,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 3rem 6rem; } }
+    padding: 2rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -125,8 +125,10 @@ a {
   border-radius: 0.3rem; }
 
 /* My additions */
-.main-content iframe {
+iframe {
   margin-left:8em;
+  /*float: left;
+  width:400px;*/
 }
 
 .main-content footer {
