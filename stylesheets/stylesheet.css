@@ -53,6 +53,7 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+/* Change text in header and background */
 .page-header {
   color: #fff;
   text-align: center;
@@ -61,7 +62,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 3rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -122,6 +123,17 @@ a {
   color: #383e41;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
+
+/* My additions */
+.main-content iframe {
+  margin-left:8em;
+}
+
+.main-content footer {
+  text-align: center;
+}
+/* END my additions */
+
 .main-content pre {
   padding: 0.8rem;
   margin-top: 0;
